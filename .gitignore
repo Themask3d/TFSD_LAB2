@@ -1,0 +1,99 @@
+# Compiled output #
+###################
+*.o
+*.class
+*.dll
+*.exe
+*.so
+*.out
+
+# Packages #
+############
+*.7z
+*.zip
+*.tar.gz
+*.rar
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
+# OS generated files #
+######################
+.DS_Store  # macOS
+*.lnk      # Windows
+Thumbs.db  # Windows
+*.db       # General DB file
+
+# IDE and editor generated files #
+##################################
+*.project
+*.idea
+*.vscode
+*.bak
+*.swp
+*.swo
+*.swn
+*.bak
+*.tmp
+
+# Temporary and backup files #
+##############################
+*~
+~*
+
+# Ignore configuration files that may contain sensitive information #
+####################################################################
+*.env
+
+# Binary Files #
+################
+*.bin
+*.bmp
+*.dat
+*.db
+*.dbf
+*.dll
+*.dmg
+*.exe
+*.flv
+*.gif
+*.ico
+*.jar
+*.jpg
+*.jpeg
+*.mdb
+*.mid
+*.mp3
+*.mpg
+*.pdf
+*.png
+*.ppt
+*.psd
+*.tar
+*.tif
+
+# Python specific #
+###################
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+*.egg
+*.venv/
+*.virtualenv/
+*.pypy/
+
+# JavaScript/Node.js specific #
+###############################
+node_modules/
+npm-debug.log
+package-lock.json
+yarn.lock
+
+# Vue.js specific #
+###################
+dist/          # Produced by `npm run build`
+public/
